@@ -41,6 +41,8 @@
 
 -include("ec_cmd_log.hrl").
 
+-compile({no_auto_import,[error/3]}).
+
 -define(RED,     $r).
 -define(GREEN,   $g).
 -define(YELLOW,  $y).
